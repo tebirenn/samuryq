@@ -1,0 +1,113 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+    padding: 0 10%;
+}
+header p, header a {
+    font-size: 20px;
+}
+.header-logo {
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.header-logo h2 {
+    font-size: 30px;
+}
+.header-logo img {
+    width: 50px;
+    border-radius: 100%;
+}
+.header-all-links {
+    display: flex;
+    gap: 50px;
+}
+.header-contact img {
+    width: 25px;
+}
+.header-contact {
+    display: flex;
+    gap: 20px;
+}
+.header-nav {
+    display: flex;
+    gap: 20px;
+}
+.header-nav a {
+    position: relative;
+    transition: .4s;
+}
+.header-nav a::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #6c6c6c;
+    opacity: 0.4;
+    transition: .4s;
+}
+.header-nav a:hover::after {
+    width: 100%;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    .header-logo h2 {
+        display: none;
+    }
+    header {
+        justify-content: space-between;
+        height: 70px;
+    }
+    .header-nav {
+        display: none;
+    }
+}
+
+
+
+
+
+
+/* @media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+
+} */

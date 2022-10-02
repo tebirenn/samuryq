@@ -1,0 +1,58 @@
+@import url('vendors/reset.css');
+@import url('pages/main-page.css');
+@import url('components/header.css');
+@import url('components/illustration.css');
+@import url('components/content1.css');
+@import url('components/content2.css');
+@import url('components/collection.css');
+@import url('components/outro.css');
+@import url('components/contact.css');
+@import url('components/about.css');
+
+#app {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #fff;
+    min-width: 100vw;
+}
+button {
+    cursor: pointer;
+}
+.red-text {
+    color: #D77474;
+    font-weight: 700;
+}
+.gray-text {
+    color: #6c6c6c;
+    line-height: 25px;
+}
+.big-text {
+    font-size: 45px;
+    font-weight: 700;
+}
+.text40 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.red-button {
+    height: 60px;
+    width: 250px;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    background-color: #AC1313;
+    color: #fff;
+    border: 1px solid #AC1313;
+    transition: .4s;
+}
+.red-button:hover {
+    background-color: #fff;
+    color: #AC1313;
+}
+.tar {
+    text-align: right;
+}

@@ -1,0 +1,63 @@
+#illustration {
+    background-image: url("../../assets/illus.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    padding: 100px 10%;
+}
+#illustration>div:first-child {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#illustration img {
+    width: 500px;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    #illustration img {
+        width: 180px;
+    }
+    #illustration {
+        gap: 10px;
+        padding: 50px 5%;
+    }
+    #illustration h1 {
+        font-size: 30px;
+    }
+    #illustration h4 {
+        font-size: 18px;
+    }
+    #illustration button {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    #illustration p {
+        font-size: 12px;
+    }
+    #illustration>div:first-child {
+        gap: 10px;
+    }
+}

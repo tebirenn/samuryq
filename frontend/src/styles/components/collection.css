@@ -1,0 +1,104 @@
+#collection {
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+#collection>span:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#collection>div {
+    display: flex;
+    gap: 50px;
+}
+.collection--card {
+   border-bottom: 1px solid #DBDBDB;
+   width: 300px;
+}
+/* .collection--card img {
+    width: 100%;
+} */
+.collection--card > div:first-child {
+    width: 300px;
+    height: 400px;
+    background-size: cover;
+}
+.collection--card--img1 {
+    background-image: url('../../assets/podagra.jfif');
+}
+.collection--card--img2 {
+    background-image: url('../../assets/varikoz.jpg');
+}
+.collection--card--img3 {
+    background-image: url('../../assets/otek.jpg');
+}
+.collection--card--img4 {
+    background-image: url('../../assets/piyatka.jpg');
+}
+.collection--card--img5 {
+    background-image: url('../../assets/koleno.png');
+}
+.collection--card--img6 {
+    background-image: url('../../assets/urolog.webp');
+}
+.collection--card span {
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.collection--card span p:last-child {
+    font-weight: 700;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    #collection {
+        gap: 20px;
+        text-align: center;
+        padding: 50px 10%;
+    }
+    #collection h1 {
+        font-size: 24px;
+    }
+    #collection > div {
+        gap: 10px;
+    }
+    .collection--card {
+        width: 100px;
+    }
+    .collection--card > div:first-child {
+        width: 100px;
+        height: 130px;
+        background-size: 100% 100%;
+    }
+    .collection--card p {
+        font-size: 12px;
+    }
+    #collection button {
+        font-size: 12px;
+        height: 40px;
+        width: 140px;
+    }
+}

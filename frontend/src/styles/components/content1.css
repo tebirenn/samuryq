@@ -1,0 +1,121 @@
+#content1 {
+    padding: 100px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+#content1>div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#content1>div:nth-child(2) {
+    width: 100%;
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+#content1>div:nth-child(2) span {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+    background-color: #000;
+    color: transparent;
+}
+#content1 h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+#content1-desc {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+#content1-desc div {
+    display: flex;
+    flex-direction: column;
+}
+#content1-desc div p {
+    line-height: 30px;
+    margin-top: 20px;
+}
+.type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.type h1 {
+    font-size: 20px;
+    position: relative;
+}
+.type h1::before {
+    content: ' ';
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border: 3px solid #AC1313;
+    border-radius: 100%;
+    left: -20px;
+    bottom: 2px;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 575px) {
+    #content1 {
+        text-align: center;
+        padding: 30px 10%;
+        gap: 20px;
+    }
+    #content1>div:first-child h1 {
+        font-size: 24px;
+    }
+    #content1>div:last-child span {
+        width: 50px;
+        height: 50px;
+    }
+    /* #content1>div:last-child {
+
+    } */
+    #content1>div:last-child h1 {
+        font-size: 18px;
+    }
+    #content1-desc {
+        gap: 30px;
+        flex-direction: column;
+    }
+    #content1-desc div {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+    }
+    #content1-desc div h1::before {
+        content: ' ';
+        position: absolute;
+        height: 5px;
+        width: 5px;
+        border: 3px solid #AC1313;
+        border-radius: 100%;
+        left: -15px;
+        bottom: 4px;
+    }
+}
