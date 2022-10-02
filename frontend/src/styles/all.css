@@ -17,7 +17,8 @@
 
 body {
     background-color: #fff;
-    min-width: 100vw;
+    max-width: 100vw;
+    box-sizing: border-box;
 }
 button {
     cursor: pointer;
@@ -55,4 +56,13 @@ button {
 }
 .tar {
     text-align: right;
+}
+
+@media screen and (max-width: 767px) {
+    p {
+        font-size: 12px;
+    }
+    h1 {
+        font-size: 22px;
+    }
 }

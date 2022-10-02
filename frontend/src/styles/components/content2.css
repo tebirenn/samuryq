@@ -10,6 +10,7 @@
 .content2-item {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 200px;
 }
 .content2-item h2 {
@@ -30,6 +31,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 50%;
 }
 #content2>div h2 {
     display: flex;
@@ -47,7 +49,7 @@
     position: absolute;
     width: 500px;
     height: 220px;
-    background-color: #F5F5F5;
+    background-color: #AC1313;
     z-index: -10;
 }
 .content-item--text:last-child {
@@ -89,17 +91,17 @@
         margin-top: 30px;
     }
     .content-item--img img {
-        width: 160px;
+        width: 100px;
     }
     .content-item--img span {
-        width: 200px;
-        height: 100px;
+        width: 140px;
+        height: 60px;
     }
     .content2-item {
         gap: 50px;
     }
     .content-item--text h2 {
-        font-size: 12px;
+        font-size: 10px;
     }
     .content-item--text {
         gap: 5px;

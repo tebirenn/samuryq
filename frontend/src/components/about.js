@@ -22,7 +22,7 @@ const About = () => {
                 <div className="about-item--card">
                     <img src={callImg} alt="" />
                     <h6>Ұялы телефонымыз</h6>
-                    <p className="gray-text">+7 (700) 505 09-16</p>
+                    <p className="gray-text">+7 (700) 663 87-16</p>
                 </div>
             </div>
         </div>
