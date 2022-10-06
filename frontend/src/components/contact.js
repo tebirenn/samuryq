@@ -33,7 +33,7 @@ const Contact = () => {
         name.value = "";
         number.value = "";
 
-        alert("Сіздің өтінішіңіз қабылданды. Біз сізбен жақын арада байланысамыз!")
+        alert("Сіздің өтінішіңіз қабылданды.\nБіз сізбен жақын арада байланысамыз!")
     }
 
     return (
@@ -43,7 +43,7 @@ const Contact = () => {
             <h1 className="text40">Бізбен байланысу</h1>
             <div id="contact-form">
                 <input id="contact-name" type="text" placeholder="Есіміңіз" name="user_name" />
-                <input id="contact-number" type="text" placeholder="Телефон нөміріңіз" name="user_number" />
+                <input id="contact-number" type="number" placeholder="Телефон нөміріңіз" name="user_number" />
                 <button onClick={() => sendMessage()}>Жіберу</button>
                 {/* <a href="https://api.telegram.org/bot5690970767:AAHcn4ScVmd-PkguZIZnInzxk6_LWD0Q7rU/sendMessage?chat_id=-802654452&parse_mode=html&text=Alan">TEST</a> */}
             </div>
