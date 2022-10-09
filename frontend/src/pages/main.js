@@ -6,6 +6,7 @@ import Content1 from "../components/content1";
 import Content2 from "../components/content2";
 import Illustration from "../components/illustration";
 import Outro from "../components/outro";
+import Price from "../components/price";
 
 const MainPage = () => {
     return (
@@ -13,6 +14,7 @@ const MainPage = () => {
             <Illustration />
             <Content1 />
             <Content2 />
+            <Price />
             <Collection />
             <Outro />
             <Contact />
