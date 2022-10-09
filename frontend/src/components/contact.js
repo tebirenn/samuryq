@@ -9,7 +9,7 @@ const Contact = () => {
         const name = document.getElementById("contact-name");
         const number = document.getElementById("contact-number");
 
-        if (name.value.length !== 0 && name.value.length !== 0) {
+        if (name.value.length !== 0 && number.value.length !== 0) {
             let message_text = `<b>Имя клиента:</b> ${name.value}\n<b>Номер клиента:</b> ${number.value}`;
             const URI_API = `https://api.telegram.org/bot${ TOKEN }/sendMessage`; 
 
