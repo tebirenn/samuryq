@@ -14,8 +14,7 @@ const Header = () => {
 
             <div className="header-all-links">
                 <span className="header-nav">
-                    {/* <a className="gray-text" href="link">Дом</a> */}
-                    <a className="gray-text" href="#collection">Магазин</a>
+                    <a className="gray-text" href="#price">Магазин</a>
                     <a className="gray-text" href="#contact">Байланыс</a>
                     <a className="gray-text" href="#about">Біз жайлы</a>
                 </span>
