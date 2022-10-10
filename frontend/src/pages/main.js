@@ -17,6 +17,7 @@ const MainPage = () => {
             <Price />
             <Collection />
             <Outro />
+            <Price />
             <Contact />
             <About />
         </section>
