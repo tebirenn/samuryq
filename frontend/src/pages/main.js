@@ -12,6 +12,7 @@ const MainPage = () => {
     return (
         <section>
             <Illustration />
+            <Contact />
             <Content1 />
             <Content2 />
             <Price />
