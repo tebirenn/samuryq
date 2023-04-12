@@ -53,12 +53,13 @@ const Collection = () => {
                     </span>
                 </div>
             </div>
-            <a href="https://wa.me/77006638716?text=C%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5%2C%20samuryq.kz%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B%D0%BD%D0%B0%D0%BD%20%D0%B6%D0%B0%D0%B7%D1%8B%D0%BF%20%D0%BE%D1%82%D1%8B%D1%80%D0%BC%D1%8B%D0%BD.%20%D0%90%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%20%D0%B6%D0%B0%D0%B9%D0%BB%D1%8B%20%D2%9B%D0%BE%D1%81%D1%8B%D0%BC%D1%88%D0%B0%20%D0%B0%D2%9B%D0%BF%D0%B0%D1%80%D0%B0%D1%82%20%D0%B0%D0%BB%D2%93%D1%8B%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96." 
-                target="_blank" 
+            {/* <a href="https://wa.me/77006638716?text=C%D3%99%D0%BB%D0%B5%D0%BC%D0%B5%D1%82%D1%81%D1%96%D0%B7%20%D0%B1%D0%B5%2C%20samuryq.kz%20%D1%81%D0%B0%D0%B9%D1%82%D1%8B%D0%BD%D0%B0%D0%BD%20%D0%B6%D0%B0%D0%B7%D1%8B%D0%BF%20%D0%BE%D1%82%D1%8B%D1%80%D0%BC%D1%8B%D0%BD.%20%D0%90%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%20%D0%B6%D0%B0%D0%B9%D0%BB%D1%8B%20%D2%9B%D0%BE%D1%81%D1%8B%D0%BC%D1%88%D0%B0%20%D0%B0%D2%9B%D0%BF%D0%B0%D1%80%D0%B0%D1%82%20%D0%B0%D0%BB%D2%93%D1%8B%D0%BC%20%D0%BA%D0%B5%D0%BB%D0%B5%D0%B4%D1%96." 
+                target="_blank"  */}
+            <a  href="#contact"
                 rel="noopener noreferrer" 
                 className="red-button">
                     Толық ақпарат алу
-                </a>
+            </a>
         </div>
     );
 }
