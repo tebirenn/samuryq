@@ -3,14 +3,15 @@ import logo from '../assets/logo_samuryq.png';
 import instagramLogo from '../assets/instagram_icon.svg';
 import whatsappLogo from '../assets/whatsapp_icon.svg';
 import kaspiLogo from '../assets/kaspi_icon.svg';
+import { MAIN_PAGE_ROUTE } from "../utils/consts";
 
 const Header = () => {
     return (
         <header>
-            <span className="header-logo">
+            <a className="header-logo" href={MAIN_PAGE_ROUTE}>
                 <img src={logo} alt="" />
                 <h2>Samuryq Group</h2>
-            </span>
+            </a>
 
             <div className="header-all-links">
                 <span className="header-nav">

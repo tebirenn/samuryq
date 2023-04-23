@@ -1,15 +1,14 @@
 import React from 'react';
-import Header from './components/header';
-import MainPage from './pages/main';
+import { BrowserRouter } from "react-router-dom";
 
 import './styles/all.css';
+import AppRouter from './components/AppRouter';
 
 const App = () => {
     return (
-        <div id="app">
-            <Header />
-            <MainPage />
-        </div>
+        <BrowserRouter>
+            <AppRouter />
+        </BrowserRouter>
     );
 }
 

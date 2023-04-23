@@ -18,8 +18,8 @@ const Illustration = () => {
             <div>
                 <img src={appImg} alt="" />
                 <div className="money">
-                    <h1>250.000 тг</h1>
-                    <p>320.000 тг</p>
+                    <h1>250.000тг</h1>
+                    <p>320.000тг</p>
                 </div>
             </div>
             

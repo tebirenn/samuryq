@@ -7,10 +7,12 @@ import Content2 from "../components/content2";
 import Illustration from "../components/illustration";
 import Outro from "../components/outro";
 import Price from "../components/price";
+import Header from "../components/header";
 
 const MainPage = () => {
     return (
-        <section>
+        <section id="app">
+            <Header />
             <Illustration />
             <Price />
             <Contact />
@@ -20,7 +22,7 @@ const MainPage = () => {
             {/* <Outro /> */}
             {/* <Price /> */}
             {/* <Contact /> */}
-            {/* <About /> */}
+            <About />
         </section>
     );
 }

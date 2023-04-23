@@ -1,5 +1,5 @@
 import React from "react";
-import sale from "../assets/kaspi22.png";
+import sale from "../assets/kaspi22.JPG";
 
 const Price = () => {
     return (

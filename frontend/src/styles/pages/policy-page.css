@@ -1,0 +1,25 @@
+.policy-page > section {
+    box-sizing: border-box;
+    padding: 15px 10%;
+}
+
+.policy-page > section > h1:first-child {
+    text-align: center;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.policy--item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 25px;
+}
+.policy--item h2 {
+    font-weight: 600;
+    font-size: 20px;
+}
+.policy--item p {
+    font-size: 13px;
+}
