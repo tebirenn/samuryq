@@ -1,15 +1,27 @@
 #price {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    /* gap: 15px; */
     padding: 100px 10%;
     align-items: center;
+    /* background-color: #f14635; */
+    color: #fff;
 }
 #price h1 {
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 43px;
+    letter-spacing: 8px;
 }
-#price h2 {
+#price p {
+    font-weight: 500;
+}
+#price p:first-child {
+    font-size: 13px;
+}
+#price p:last-child {
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+/* #price h2 {
     font-size: 40px;
     font-weight: 700;
 }
@@ -18,13 +30,9 @@
     width: 100%;
     height: 4px;
     background-color: #D77474;
-}
-#price p {
-    color: #6c6c6c;
-    font-size: 24px;
-    position: relative;
-}
-#price p:before {
+} */
+
+/* #price p:before {
 	content: "";
 	border-bottom: 2px solid #D77474;
 	position: absolute;
@@ -32,18 +40,20 @@
     left: -10%;
 	height: 50%;
 	transform: rotate(5deg);
-}
-#price img {
+} */
+/* #price img {
     width: 20%;
-}
+} */
 
 @media screen and (max-width: 575px) {
     #price {
-        gap: 20px;
-        padding: 50px 10%;
+        width: 250px;
+        margin: 30px auto 10px;
+        /* gap: 10px; */
+        padding: 0;
     }
-    #price h1 {
-        font-size: 30px;
+    /* #price h1 {
+        font-size: 20px;
     }
     #price h2 {
         font-size: 20px;
@@ -51,15 +61,16 @@
     #price span {
         display: flex;
         width: 100%;
-        height: 4px;
+        height: 2px;
         background-color: #D77474;
     }
     #price p {
         color: #6c6c6c;
-        font-size: 24px;
+        font-size: 13px;
         position: relative;
-    }
+    }*/
     #price img {
-        width: 50%;
+        width: 250px;
+        border-radius: 15px;
     }
 }

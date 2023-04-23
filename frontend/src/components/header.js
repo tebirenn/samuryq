@@ -26,7 +26,7 @@ const Header = () => {
                     <a href="https://api.whatsapp.com/send?phone=77006638716" target="_blank" rel="noopener noreferrer">
                         <img src={whatsappLogo} alt="" />
                     </a>
-                    <a href="https://kaspi.kz/shop/p/xiaomi-repor-3600-vibratsionnyi-vozdushno-kompressionnyi-razogrevajuschii-raskatyvajuschii-massazher-belyi-seryi-104955103/?c=512610000&ref=shared_link" target="_blank" rel="noopener noreferrer">
+                    <a href="https://kaspi.kz/shop/p/g-10-ruchnoi-vibratsionnyi-shiatsu-109738219/?c=511010000&ref=shared_link" target="_blank" rel="noopener noreferrer">
                         <img src={kaspiLogo} alt="" />
                     </a>
                 </span>

@@ -1,6 +1,7 @@
 import axios from "axios";
 import React from "react";
 import messageImg from "../assets/message.png";
+import phoneImg from "../assets/phone.svg";
 
 const Contact = () => {
     const sendMessage = () => {
@@ -38,7 +39,11 @@ const Contact = () => {
 
     return (
         <div id="contact">
-            <img src={messageImg} alt="" />
+            <a className="call-button" href="tel:87082550612">
+                <img src={phoneImg} alt="" />
+                <p>Хабарласу</p>
+            </a>
+            <img className="message-icon" src={messageImg} alt="" />
             <p className="red-text">Нөміріңізді қалдырып, көбірек ақпарат алыңыз</p>
             <h1 className="text40">Бізбен байланысу</h1>
             <div id="contact-form">
@@ -46,7 +51,6 @@ const Contact = () => {
                 <input id="contact-number" type="number" placeholder="Телефон нөміріңіз" name="user_number" />
                 <button onClick={() => sendMessage()}>Жіберу</button>
 
-                <a href="tel:87082550612">Позвонить</a>
             </div>
         </div>
     )

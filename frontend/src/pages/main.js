@@ -12,15 +12,15 @@ const MainPage = () => {
     return (
         <section>
             <Illustration />
-            <Contact />
-            {/* <Content1 />
-            <Content2 />
-            <Price />
-            <Collection />
-            <Outro />
             <Price />
             <Contact />
-            <About /> */}
+            {/* <Content1 /> */}
+            {/* <Content2 /> */}
+            {/* <Collection /> */}
+            {/* <Outro /> */}
+            {/* <Price /> */}
+            {/* <Contact /> */}
+            {/* <About /> */}
         </section>
     );
 }
