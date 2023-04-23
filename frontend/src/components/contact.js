@@ -45,12 +45,11 @@ const Contact = () => {
             </a>
             <img className="message-icon" src={messageImg} alt="" />
             <p className="red-text">Нөміріңізді қалдырып, көбірек ақпарат алыңыз</p>
-            <h1 className="text40">Бізбен байланысу</h1>
+            <h1 className="text40">Толық ақпарат алу</h1>
             <div id="contact-form">
                 <input id="contact-name" type="text" placeholder="Есіміңіз" name="user_name" />
                 <input id="contact-number" type="number" placeholder="Телефон нөміріңіз" name="user_number" />
                 <button onClick={() => sendMessage()}>Жіберу</button>
-
             </div>
         </div>
     )
