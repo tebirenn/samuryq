@@ -13,14 +13,14 @@ const MainPage = () => {
         <section>
             <Illustration />
             <Contact />
-            <Content1 />
+            {/* <Content1 />
             <Content2 />
             <Price />
             <Collection />
             <Outro />
             <Price />
             <Contact />
-            <About />
+            <About /> */}
         </section>
     );
 }

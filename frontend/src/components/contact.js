@@ -45,6 +45,8 @@ const Contact = () => {
                 <input id="contact-name" type="text" placeholder="Есіміңіз" name="user_name" />
                 <input id="contact-number" type="number" placeholder="Телефон нөміріңіз" name="user_number" />
                 <button onClick={() => sendMessage()}>Жіберу</button>
+
+                <a href="tel:87082550612">Позвонить</a>
             </div>
         </div>
     )
