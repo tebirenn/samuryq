@@ -6,7 +6,7 @@ const Price = () => {
         <div id="price">
             {/* <h2>Аппараттың бағасы:</h2>
             <span></span> */}
-            <a href="https://kaspi.kz/shop/p/g-10-ruchnoi-vibratsionnyi-shiatsu-109738219/?c=511010000&ref=shared_link"
+            <a href="https://kaspi.kz/shop/p/napol-nyi-vozdushno-kompressionnyi-shiatsu-109781209/?c=511010000&ref=shared_link"
                target="_blank"
                rel="noopener noreferrer"
             >
