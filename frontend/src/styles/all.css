@@ -17,6 +17,7 @@
     min-width: 100vw;
     display: flex;
     flex-direction: column;
+    background-image: url("../assets/illus.png");
 }
 
 body {

@@ -1,5 +1,5 @@
 #illustration {
-    background-image: url("../../assets/illus.png");
+    /*background-image: url("../../assets/illus.png");*/
     background-repeat: no-repeat;
     background-size: 100% 100%;
     display: flex;
@@ -55,7 +55,7 @@
 
 @media screen and (max-width: 575px) {
     #illustration img {
-        width: 120px;
+        width: 180px;
     }
     #illustration {
         gap: 10px;

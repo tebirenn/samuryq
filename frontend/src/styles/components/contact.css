@@ -42,7 +42,7 @@
     width: 300px;
     gap: 10px;
     border-radius: 15px;
-    margin: 15px 0;
+    margin: 8px 0;
 }
 #contact .call-button p {
     font-size: 16px;
@@ -71,7 +71,7 @@
 
 @media screen and (max-width: 575px) {
     #contact {
-        padding: 20px 10%;
+        padding: 10px 10%;
         text-align: center;
         gap: 20px;
     }
