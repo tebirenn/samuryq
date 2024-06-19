@@ -18,6 +18,9 @@
     display: flex;
     flex-direction: column;
     background-image: url("../assets/illus.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 body {
