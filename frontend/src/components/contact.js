@@ -41,7 +41,7 @@ const Contact = () => {
 
     return (
         <div id="contact">
-            <a className="call-button" href={`https://api.whatsapp.com/send?phone=77008725003&text=${whatsappTemplateText}`} target="_blank" rel="noopener noreferrer">
+            <a className="call-button" href={`https://api.whatsapp.com/send?phone=77008725003&text=${encodeURIComponent(whatsappTemplateText)}`} target="_blank" rel="noopener noreferrer">
                 <img src={phoneImg} alt="" />
                 <p>Бағасын білу</p>
             </a>
