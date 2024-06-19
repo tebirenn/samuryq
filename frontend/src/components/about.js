@@ -13,17 +13,17 @@ const About = () => {
                 <div className="about-item--card">
                     {/* <img src={mailImg} alt="" /> */}
                     {/* <h6>Электронды почтамыз</h6> */}
-                    <p className="gray-text">ojanadil@bk.ru</p>
+                    <p className="gray-text">bekzat322b@gmail.com</p>
                 </div>
                 <div className="about-item--card">
                     {/* <img src={mapImg} alt="" /> */}
                     {/* <h6>Біздің филиалдар</h6> */}
-                    <p className="gray-text">Казахстан, Шымкент, мкр. Кунаева 20/1</p>
+                    <p className="gray-text">Казахстан, Шымкент, Байдибек би, 24Б</p>
                 </div>
                 <div className="about-item--card">
                     {/* <img src={callImg} alt="" /> */}
                     {/* <h6>Ұялы телефонымыз</h6> */}
-                    <p className="gray-text">8 (708) 148 35-66</p>
+                    <p className="gray-text">8 (700) 872 50-03</p>
                 </div>
 
                 <div className="about-links">

@@ -15,7 +15,7 @@ const MainPage = () => {
             <Header />
             <Illustration />
             <Price />
-            {/* <Contact /> */}
+            <Contact />
             {/* <Content1 /> */}
             {/* <Content2 /> */}
             {/* <Collection /> */}

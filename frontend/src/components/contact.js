@@ -39,18 +39,18 @@ const Contact = () => {
 
     return (
         <div id="contact">
-            <a className="call-button" href="tel:87082550612">
+            <a className="call-button" href="tel:87021268798">
                 <img src={phoneImg} alt="" />
-                <p>Хабарласу</p>
+                <p>Бағасын білу</p>
             </a>
-            <img className="message-icon" src={messageImg} alt="" />
-            <p className="red-text">Нөміріңізді қалдырып, көбірек ақпарат алыңыз</p>
-            <h1 className="text40">Толық ақпарат алу</h1>
-            <div id="contact-form">
-                <input id="contact-name" type="text" placeholder="Есіміңіз" name="user_name" />
-                <input id="contact-number" type="number" placeholder="Телефон нөміріңіз" name="user_number" />
-                <button onClick={() => sendMessage()}>Жіберу</button>
-            </div>
+            {/*<img className="message-icon" src={messageImg} alt="" />*/}
+            {/*<p className="red-text">Нөміріңізді қалдырып, көбірек ақпарат алыңыз</p>*/}
+            {/*<h1 className="text40">Толық ақпарат алу</h1>*/}
+            {/*<div id="contact-form">*/}
+            {/*    <input id="contact-name" type="text" placeholder="Есіміңіз" name="user_name" />*/}
+            {/*    <input id="contact-number" type="number" placeholder="Телефон нөміріңіз" name="user_number" />*/}
+            {/*    <button onClick={() => sendMessage()}>Жіберу</button>*/}
+            {/*</div>*/}
         </div>
     )
 }
