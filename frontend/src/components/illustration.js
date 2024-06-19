@@ -17,10 +17,10 @@ const Illustration = () => {
             </div>
             <div>
                 <img src={appImg} alt="" />
-                <div className="money">
-                    <h1>360.000тг</h1>
-                    <p>420.000тг</p>
-                </div>
+                {/*<div className="money">*/}
+                {/*    <h1>360.000тг</h1>*/}
+                {/*    <p>420.000тг</p>*/}
+                {/*</div>*/}
             </div>
             
         </div>

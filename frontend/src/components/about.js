@@ -28,7 +28,7 @@ const About = () => {
 
                 <div className="about-links">
                     <a href={POLICY_PAGE_ROUTE}>Политика конфиденциальности</a>
-                    <p>© Samuryq Group 2022. Массажные кресла, массажеры, товары для дома</p>
+                    <p>© Samuryq Group 2024. Массажные кресла, массажеры, товары для дома</p>
                 </div>
             </div>
         </div>
